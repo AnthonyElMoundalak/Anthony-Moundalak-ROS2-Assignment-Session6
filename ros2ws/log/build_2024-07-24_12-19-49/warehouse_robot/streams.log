@@ -1,0 +1,27 @@
+[1.170s] Invoking command in '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/src/warehouse_robot': PYTHONPATH=/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/warehouse_robot build --build-base /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/build install --record /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/install.log --single-version-externally-managed install_data
+[1.451s] running egg_info
+[1.453s] writing ../../build/warehouse_robot/warehouse_robot.egg-info/PKG-INFO
+[1.520s] writing dependency_links to ../../build/warehouse_robot/warehouse_robot.egg-info/dependency_links.txt
+[1.520s] writing entry points to ../../build/warehouse_robot/warehouse_robot.egg-info/entry_points.txt
+[1.521s] writing requirements to ../../build/warehouse_robot/warehouse_robot.egg-info/requires.txt
+[1.521s] writing top-level names to ../../build/warehouse_robot/warehouse_robot.egg-info/top_level.txt
+[1.523s] reading manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'
+[1.525s] writing manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'
+[1.525s] running build
+[1.525s] running build_py
+[1.526s] copying warehouse_robot/item_delivery_action_server.py -> /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/build/lib/warehouse_robot
+[1.546s] running install
+[1.546s] running install_lib
+[1.548s] copying /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/build/lib/warehouse_robot/item_delivery_action_server.py -> /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot
+[1.558s] byte-compiling /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot/item_delivery_action_server.py to item_delivery_action_server.cpython-310.pyc
+[1.568s] running install_data
+[1.568s] running install_egg_info
+[1.570s] removing '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[1.584s] Copying ../../build/warehouse_robot/warehouse_robot.egg-info to /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot-0.0.0-py3.10.egg-info
+[1.586s] running install_scripts
+[1.610s] Installing item_delivery_action_client script to /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/warehouse_robot
+[1.611s] Installing item_delivery_action_server script to /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/warehouse_robot
+[1.612s] Installing stock_checker_service_client script to /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/warehouse_robot
+[1.613s] Installing stock_checker_service_server script to /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/warehouse_robot
+[1.614s] writing list of installed files to '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/install.log'
+[1.642s] Invoked command in '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/src/warehouse_robot' returned '0': PYTHONPATH=/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/warehouse_robot build --build-base /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/build install --record /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/install.log --single-version-externally-managed install_data

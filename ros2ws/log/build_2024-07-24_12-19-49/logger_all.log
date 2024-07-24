@@ -1,0 +1,199 @@
+[3.822s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.822s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x73532b8463b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73532b9c2620>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73532b9c2620>>, mixin_verb=('build',))
+[11.939s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[11.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[11.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[11.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[11.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[11.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[11.940s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws'
+[11.941s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[11.941s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[11.941s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[11.941s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[11.941s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[11.942s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[11.942s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[11.942s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[11.942s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[11.975s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[11.975s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[11.976s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[11.976s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[11.976s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[11.976s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[11.976s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[11.977s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[11.977s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[11.977s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[11.977s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[11.978s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[11.978s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[11.978s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[11.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[11.978s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[11.979s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[11.979s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[11.979s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[11.979s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[11.979s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[11.979s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[11.980s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[11.980s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[11.980s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[11.980s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[11.980s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[11.980s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[11.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extensions ['ignore', 'ignore_ament_install']
+[11.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extension 'ignore'
+[11.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extension 'ignore_ament_install'
+[11.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extensions ['colcon_pkg']
+[11.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extension 'colcon_pkg'
+[11.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extensions ['colcon_meta']
+[11.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extension 'colcon_meta'
+[11.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extensions ['ros']
+[11.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extension 'ros'
+[12.020s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_interface' with type 'ros.ament_cmake' and name 'my_interface'
+[12.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_robot) by extensions ['ignore', 'ignore_ament_install']
+[12.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_robot) by extension 'ignore'
+[12.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_robot) by extension 'ignore_ament_install'
+[12.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_robot) by extensions ['colcon_pkg']
+[12.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_robot) by extension 'colcon_pkg'
+[12.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_robot) by extensions ['colcon_meta']
+[12.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_robot) by extension 'colcon_meta'
+[12.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_robot) by extensions ['ros']
+[12.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/warehouse_robot) by extension 'ros'
+[12.071s] DEBUG:colcon.colcon_core.package_identification:Package 'src/warehouse_robot' with type 'ros.ament_python' and name 'warehouse_robot'
+[12.071s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[12.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[12.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[12.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[12.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[12.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[12.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[12.508s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install
+[12.520s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[12.522s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[16.730s] Level 5:colcon.colcon_core.verb:set package 'my_interface' build argument 'cmake_args' from command line to 'None'
+[16.730s] Level 5:colcon.colcon_core.verb:set package 'my_interface' build argument 'cmake_target' from command line to 'None'
+[16.730s] Level 5:colcon.colcon_core.verb:set package 'my_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[16.730s] Level 5:colcon.colcon_core.verb:set package 'my_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[16.730s] Level 5:colcon.colcon_core.verb:set package 'my_interface' build argument 'cmake_clean_first' from command line to 'False'
+[16.731s] Level 5:colcon.colcon_core.verb:set package 'my_interface' build argument 'cmake_force_configure' from command line to 'False'
+[16.731s] Level 5:colcon.colcon_core.verb:set package 'my_interface' build argument 'ament_cmake_args' from command line to 'None'
+[16.731s] Level 5:colcon.colcon_core.verb:set package 'my_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[16.731s] Level 5:colcon.colcon_core.verb:set package 'my_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[16.731s] DEBUG:colcon.colcon_core.verb:Building package 'my_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/my_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface', 'merge_install': False, 'path': '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/src/my_interface', 'symlink_install': False, 'test_result_base': None}
+[16.732s] Level 5:colcon.colcon_core.verb:set package 'warehouse_robot' build argument 'cmake_args' from command line to 'None'
+[16.732s] Level 5:colcon.colcon_core.verb:set package 'warehouse_robot' build argument 'cmake_target' from command line to 'None'
+[16.732s] Level 5:colcon.colcon_core.verb:set package 'warehouse_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[16.732s] Level 5:colcon.colcon_core.verb:set package 'warehouse_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[16.733s] Level 5:colcon.colcon_core.verb:set package 'warehouse_robot' build argument 'cmake_clean_first' from command line to 'False'
+[16.733s] Level 5:colcon.colcon_core.verb:set package 'warehouse_robot' build argument 'cmake_force_configure' from command line to 'False'
+[16.733s] Level 5:colcon.colcon_core.verb:set package 'warehouse_robot' build argument 'ament_cmake_args' from command line to 'None'
+[16.733s] Level 5:colcon.colcon_core.verb:set package 'warehouse_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[16.733s] Level 5:colcon.colcon_core.verb:set package 'warehouse_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[16.733s] DEBUG:colcon.colcon_core.verb:Building package 'warehouse_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot', 'merge_install': False, 'path': '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/src/warehouse_robot', 'symlink_install': False, 'test_result_base': None}
+[16.734s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[16.735s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[16.736s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/src/my_interface' with build type 'ament_cmake'
+[16.736s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/src/my_interface'
+[16.969s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[16.969s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.970s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/my_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot:/opt/ros/humble /usr/bin/cmake --build /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/my_interface -- -j4 -l4
+[19.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/my_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot:/opt/ros/humble /usr/bin/cmake --build /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/my_interface -- -j4 -l4
+[19.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/my_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot:/opt/ros/humble /usr/bin/cmake --install /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/my_interface
+[20.465s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_interface)
+[20.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/my_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot:/opt/ros/humble /usr/bin/cmake --install /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/my_interface
+[20.534s] Level 1:colcon.colcon_core.environment:checking '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface' for CMake module files
+[20.565s] Level 1:colcon.colcon_core.environment:checking '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface' for CMake config files
+[20.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interface', 'cmake_prefix_path')
+[20.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/hook/cmake_prefix_path.ps1'
+[20.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/hook/cmake_prefix_path.dsv'
+[20.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/hook/cmake_prefix_path.sh'
+[20.601s] Level 1:colcon.colcon_core.environment:checking '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/lib'
+[20.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interface', 'ld_library_path_lib')
+[20.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/hook/ld_library_path_lib.ps1'
+[20.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/hook/ld_library_path_lib.dsv'
+[20.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/hook/ld_library_path_lib.sh'
+[20.604s] Level 1:colcon.colcon_core.environment:checking '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/bin'
+[20.604s] Level 1:colcon.colcon_core.environment:checking '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/lib/pkgconfig/my_interface.pc'
+[20.604s] Level 1:colcon.colcon_core.environment:checking '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/lib/python3.10/site-packages'
+[20.604s] Level 1:colcon.colcon_core.environment:checking '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/bin'
+[20.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/package.ps1'
+[20.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/package.dsv'
+[20.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/package.sh'
+[20.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/package.bash'
+[20.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/package.zsh'
+[20.632s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/colcon-core/packages/my_interface)
+[20.732s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_interface)
+[20.732s] Level 1:colcon.colcon_core.environment:checking '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface' for CMake module files
+[20.733s] Level 1:colcon.colcon_core.environment:checking '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface' for CMake config files
+[20.733s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interface', 'cmake_prefix_path')
+[20.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/hook/cmake_prefix_path.ps1'
+[20.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/hook/cmake_prefix_path.dsv'
+[20.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/hook/cmake_prefix_path.sh'
+[20.736s] Level 1:colcon.colcon_core.environment:checking '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/lib'
+[20.736s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interface', 'ld_library_path_lib')
+[20.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/hook/ld_library_path_lib.ps1'
+[20.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/hook/ld_library_path_lib.dsv'
+[20.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/hook/ld_library_path_lib.sh'
+[20.738s] Level 1:colcon.colcon_core.environment:checking '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/bin'
+[20.738s] Level 1:colcon.colcon_core.environment:checking '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/lib/pkgconfig/my_interface.pc'
+[20.739s] Level 1:colcon.colcon_core.environment:checking '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/lib/python3.10/site-packages'
+[20.739s] Level 1:colcon.colcon_core.environment:checking '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/bin'
+[20.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/package.ps1'
+[20.740s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/package.dsv'
+[20.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/package.sh'
+[20.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/package.bash'
+[20.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/package.zsh'
+[20.743s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/colcon-core/packages/my_interface)
+[20.744s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/src/warehouse_robot' with build type 'ament_python'
+[20.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('warehouse_robot', 'ament_prefix_path')
+[20.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/share/warehouse_robot/hook/ament_prefix_path.ps1'
+[20.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/share/warehouse_robot/hook/ament_prefix_path.dsv'
+[20.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/share/warehouse_robot/hook/ament_prefix_path.sh'
+[20.749s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.750s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.201s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/src/warehouse_robot'
+[21.202s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.202s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/src/warehouse_robot': PYTHONPATH=/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/warehouse_robot build --build-base /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/build install --record /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/install.log --single-version-externally-managed install_data
+[22.387s] Level 1:colcon.colcon_core.environment:checking '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot' for CMake module files
+[22.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/src/warehouse_robot' returned '0': PYTHONPATH=/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/warehouse_robot build --build-base /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/build install --record /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/install.log --single-version-externally-managed install_data
+[22.411s] Level 1:colcon.colcon_core.environment:checking '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot' for CMake config files
+[22.459s] Level 1:colcon.colcon_core.environment:checking '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib'
+[22.459s] Level 1:colcon.colcon_core.environment:checking '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/bin'
+[22.460s] Level 1:colcon.colcon_core.environment:checking '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/pkgconfig/warehouse_robot.pc'
+[22.460s] Level 1:colcon.colcon_core.environment:checking '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/python3.10/site-packages'
+[22.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('warehouse_robot', 'pythonpath')
+[22.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/share/warehouse_robot/hook/pythonpath.ps1'
+[22.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/share/warehouse_robot/hook/pythonpath.dsv'
+[22.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/share/warehouse_robot/hook/pythonpath.sh'
+[22.463s] Level 1:colcon.colcon_core.environment:checking '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/bin'
+[22.463s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(warehouse_robot)
+[22.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/share/warehouse_robot/package.ps1'
+[22.465s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/share/warehouse_robot/package.dsv'
+[22.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/share/warehouse_robot/package.sh'
+[22.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/share/warehouse_robot/package.bash'
+[22.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/share/warehouse_robot/package.zsh'
+[22.467s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/share/colcon-core/packages/warehouse_robot)
+[22.468s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[22.469s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[22.469s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[22.469s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[22.584s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[22.584s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[22.584s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[22.667s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[22.667s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/local_setup.ps1'
+[22.669s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/_local_setup_util_ps1.py'
+[22.687s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/setup.ps1'
+[22.688s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/local_setup.sh'
+[22.690s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/_local_setup_util_sh.py'
+[22.691s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/setup.sh'
+[22.693s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/local_setup.bash'
+[22.695s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/setup.bash'
+[22.697s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/local_setup.zsh'
+[22.699s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/setup.zsh'

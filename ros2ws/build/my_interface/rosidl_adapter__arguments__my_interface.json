@@ -1,0 +1,7 @@
+{
+  "package_name": "my_interface",
+  "non_idl_tuples": [
+    "/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/src/my_interface:action/DeliverItem.action",
+    "/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/src/my_interface:srv/CheckStock.srv"
+  ]
+}

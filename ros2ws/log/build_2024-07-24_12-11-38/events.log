@@ -1,0 +1,606 @@
+[0.000000] (-) TimerEvent: {}
+[0.000224] (my_interface) JobQueued: {'identifier': 'my_interface', 'dependencies': OrderedDict()}
+[0.000257] (warehouse_robot) JobQueued: {'identifier': 'warehouse_robot', 'dependencies': OrderedDict([('my_interface', '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface')])}
+[0.001073] (my_interface) JobStarted: {'identifier': 'my_interface'}
+[0.025153] (my_interface) JobProgress: {'identifier': 'my_interface', 'progress': 'cmake'}
+[0.025398] (my_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/src/my_interface', '-DCMAKE_INSTALL_PREFIX=/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface'], 'cwd': '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/my_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'anthonyubuntu'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anthonyubuntu'), ('OLDPWD', '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1902'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anthonyubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anthonyubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anthonyubuntu:@/tmp/.ICE-unix/1735,unix/anthonyubuntu:/tmp/.ICE-unix/1735'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/be2a5510_fcf3_436c_aa85_ccdfe4800390'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9DQJR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.114'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/my_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100229] (-) TimerEvent: {}
+[0.201871] (-) TimerEvent: {}
+[0.302272] (-) TimerEvent: {}
+[0.403392] (-) TimerEvent: {}
+[0.504349] (-) TimerEvent: {}
+[0.604920] (-) TimerEvent: {}
+[0.705835] (-) TimerEvent: {}
+[0.807018] (-) TimerEvent: {}
+[0.908478] (-) TimerEvent: {}
+[1.009743] (-) TimerEvent: {}
+[1.110488] (-) TimerEvent: {}
+[1.220719] (-) TimerEvent: {}
+[1.321246] (-) TimerEvent: {}
+[1.444408] (-) TimerEvent: {}
+[1.545083] (-) TimerEvent: {}
+[1.645604] (-) TimerEvent: {}
+[1.746421] (-) TimerEvent: {}
+[1.846848] (-) TimerEvent: {}
+[1.947350] (-) TimerEvent: {}
+[2.047726] (-) TimerEvent: {}
+[2.148938] (-) TimerEvent: {}
+[2.249329] (-) TimerEvent: {}
+[2.287483] (my_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.349793] (-) TimerEvent: {}
+[2.453270] (-) TimerEvent: {}
+[2.554447] (-) TimerEvent: {}
+[2.655461] (-) TimerEvent: {}
+[2.755930] (-) TimerEvent: {}
+[2.856906] (-) TimerEvent: {}
+[2.957964] (-) TimerEvent: {}
+[3.058878] (-) TimerEvent: {}
+[3.159519] (-) TimerEvent: {}
+[3.260327] (-) TimerEvent: {}
+[3.360903] (-) TimerEvent: {}
+[3.461752] (-) TimerEvent: {}
+[3.462705] (my_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.515636] (my_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.562169] (-) TimerEvent: {}
+[3.662867] (-) TimerEvent: {}
+[3.763589] (-) TimerEvent: {}
+[3.861807] (my_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.863654] (-) TimerEvent: {}
+[3.869073] (my_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.870374] (my_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.883819] (my_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.894632] (my_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.963953] (-) TimerEvent: {}
+[4.072854] (-) TimerEvent: {}
+[4.115453] (my_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.123295] (my_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.123715] (my_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.124329] (my_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.173276] (-) TimerEvent: {}
+[4.198052] (my_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.273615] (-) TimerEvent: {}
+[4.374057] (-) TimerEvent: {}
+[4.474487] (-) TimerEvent: {}
+[4.494421] (my_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.574606] (-) TimerEvent: {}
+[4.675066] (-) TimerEvent: {}
+[4.776179] (-) TimerEvent: {}
+[4.817398] (my_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.900467] (-) TimerEvent: {}
+[5.001249] (-) TimerEvent: {}
+[5.056440] (my_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[5.091458] (my_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.101659] (-) TimerEvent: {}
+[5.135872] (my_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.201846] (-) TimerEvent: {}
+[5.264078] (my_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.302281] (-) TimerEvent: {}
+[5.402649] (-) TimerEvent: {}
+[5.503073] (-) TimerEvent: {}
+[5.603546] (-) TimerEvent: {}
+[5.704082] (-) TimerEvent: {}
+[5.804773] (-) TimerEvent: {}
+[5.844559] (my_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.904962] (-) TimerEvent: {}
+[6.005486] (-) TimerEvent: {}
+[6.089046] (my_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.105846] (-) TimerEvent: {}
+[6.206394] (-) TimerEvent: {}
+[6.307066] (-) TimerEvent: {}
+[6.377469] (my_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.405675] (my_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[6.407167] (-) TimerEvent: {}
+[6.411054] (my_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.508134] (-) TimerEvent: {}
+[6.531586] (my_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[6.531782] (my_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.531869] (my_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.531942] (my_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[6.557857] (my_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[6.608576] (-) TimerEvent: {}
+[6.648414] (my_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.660103] (my_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.679473] (my_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.709162] (-) TimerEvent: {}
+[6.800014] (my_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[6.809475] (-) TimerEvent: {}
+[6.821289] (my_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/my_interface\n'}
+[6.832343] (my_interface) CommandEnded: {'returncode': 0}
+[6.833290] (my_interface) JobProgress: {'identifier': 'my_interface', 'progress': 'build'}
+[6.834713] (my_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/my_interface', '--', '-j4', '-l4'], 'cwd': '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/my_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'anthonyubuntu'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anthonyubuntu'), ('OLDPWD', '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1902'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anthonyubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anthonyubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anthonyubuntu:@/tmp/.ICE-unix/1735,unix/anthonyubuntu:/tmp/.ICE-unix/1735'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/be2a5510_fcf3_436c_aa85_ccdfe4800390'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9DQJR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.114'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/my_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.893584] (my_interface) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.903225] (my_interface) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.909588] (-) TimerEvent: {}
+[6.909935] (my_interface) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_my_interface\n'}
+[7.011251] (-) TimerEvent: {}
+[7.111908] (-) TimerEvent: {}
+[7.236567] (-) TimerEvent: {}
+[7.337068] (-) TimerEvent: {}
+[7.437748] (-) TimerEvent: {}
+[7.586984] (-) TimerEvent: {}
+[7.687410] (-) TimerEvent: {}
+[7.761904] (my_interface) StdoutLine: {'line': b'running egg_info\n'}
+[7.763489] (my_interface) StdoutLine: {'line': b'creating my_interface.egg-info\n'}
+[7.764065] (my_interface) StdoutLine: {'line': b'writing my_interface.egg-info/PKG-INFO\n'}
+[7.764410] (my_interface) StdoutLine: {'line': b'writing dependency_links to my_interface.egg-info/dependency_links.txt\n'}
+[7.764601] (my_interface) StdoutLine: {'line': b'writing top-level names to my_interface.egg-info/top_level.txt\n'}
+[7.764919] (my_interface) StdoutLine: {'line': b"writing manifest file 'my_interface.egg-info/SOURCES.txt'\n"}
+[7.782289] (my_interface) StdoutLine: {'line': b"reading manifest file 'my_interface.egg-info/SOURCES.txt'\n"}
+[7.782965] (my_interface) StdoutLine: {'line': b"writing manifest file 'my_interface.egg-info/SOURCES.txt'\n"}
+[7.787546] (-) TimerEvent: {}
+[7.815346] (my_interface) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_my_interface_egg\n'}
+[7.887788] (-) TimerEvent: {}
+[7.931819] (my_interface) StdoutLine: {'line': b'[  5%] Built target my_interface__cpp\n'}
+[7.941874] (my_interface) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.949764] (my_interface) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.950078] (my_interface) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.961221] (my_interface) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/my_interface__rosidl_generator_c.dir/rosidl_generator_c/my_interface/action/detail/deliver_item__functions.c.o\x1b[0m\n'}
+[7.987896] (-) TimerEvent: {}
+[8.088361] (-) TimerEvent: {}
+[8.188824] (-) TimerEvent: {}
+[8.289507] (-) TimerEvent: {}
+[8.368555] (my_interface) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/my_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interface/action/deliver_item__type_support.cpp.o\x1b[0m\n'}
+[8.389763] (-) TimerEvent: {}
+[8.421694] (my_interface) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/my_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interface/action/detail/deliver_item__type_support.cpp.o\x1b[0m\n'}
+[8.490016] (-) TimerEvent: {}
+[8.504172] (my_interface) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/my_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interface/action/detail/dds_fastrtps/deliver_item__type_support.cpp.o\x1b[0m\n'}
+[8.590482] (-) TimerEvent: {}
+[8.691223] (-) TimerEvent: {}
+[8.782661] (my_interface) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/my_interface__rosidl_generator_c.dir/rosidl_generator_c/my_interface/srv/detail/check_stock__functions.c.o\x1b[0m\n'}
+[8.791567] (-) TimerEvent: {}
+[8.892008] (-) TimerEvent: {}
+[8.904501] (my_interface) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking C shared library libmy_interface__rosidl_generator_c.so\x1b[0m\n'}
+[8.987956] (my_interface) StdoutLine: {'line': b'[ 28%] Built target my_interface__rosidl_generator_c\n'}
+[8.992357] (-) TimerEvent: {}
+[9.001617] (my_interface) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.092656] (-) TimerEvent: {}
+[9.193349] (-) TimerEvent: {}
+[9.293899] (-) TimerEvent: {}
+[9.423158] (-) TimerEvent: {}
+[9.524214] (-) TimerEvent: {}
+[9.624659] (-) TimerEvent: {}
+[9.725446] (-) TimerEvent: {}
+[9.826087] (-) TimerEvent: {}
+[9.926768] (-) TimerEvent: {}
+[9.964502] (my_interface) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/my_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interface/action/detail/deliver_item__type_support_c.cpp.o\x1b[0m\n'}
+[10.042812] (-) TimerEvent: {}
+[10.163165] (-) TimerEvent: {}
+[10.284445] (-) TimerEvent: {}
+[10.385230] (-) TimerEvent: {}
+[10.485700] (-) TimerEvent: {}
+[10.586173] (-) TimerEvent: {}
+[10.688695] (-) TimerEvent: {}
+[10.790511] (-) TimerEvent: {}
+[10.891987] (-) TimerEvent: {}
+[11.015643] (-) TimerEvent: {}
+[11.140682] (-) TimerEvent: {}
+[11.248324] (-) TimerEvent: {}
+[11.379670] (-) TimerEvent: {}
+[11.480382] (-) TimerEvent: {}
+[11.581290] (-) TimerEvent: {}
+[11.681697] (-) TimerEvent: {}
+[11.826404] (-) TimerEvent: {}
+[11.974390] (-) TimerEvent: {}
+[12.074983] (-) TimerEvent: {}
+[12.204773] (-) TimerEvent: {}
+[12.321337] (-) TimerEvent: {}
+[12.460802] (-) TimerEvent: {}
+[12.566063] (-) TimerEvent: {}
+[12.666620] (-) TimerEvent: {}
+[12.778599] (-) TimerEvent: {}
+[12.888597] (-) TimerEvent: {}
+[13.000416] (-) TimerEvent: {}
+[13.126077] (-) TimerEvent: {}
+[13.226550] (-) TimerEvent: {}
+[13.342216] (-) TimerEvent: {}
+[13.470982] (-) TimerEvent: {}
+[13.576540] (-) TimerEvent: {}
+[13.677043] (-) TimerEvent: {}
+[13.794462] (-) TimerEvent: {}
+[13.915215] (-) TimerEvent: {}
+[14.053919] (-) TimerEvent: {}
+[14.160632] (-) TimerEvent: {}
+[14.269570] (-) TimerEvent: {}
+[14.405696] (-) TimerEvent: {}
+[14.524907] (-) TimerEvent: {}
+[14.633279] (-) TimerEvent: {}
+[14.746138] (-) TimerEvent: {}
+[15.000238] (-) TimerEvent: {}
+[15.109098] (-) TimerEvent: {}
+[15.212751] (-) TimerEvent: {}
+[15.320419] (-) TimerEvent: {}
+[15.421341] (-) TimerEvent: {}
+[15.525289] (-) TimerEvent: {}
+[15.650168] (-) TimerEvent: {}
+[15.751642] (-) TimerEvent: {}
+[15.865003] (-) TimerEvent: {}
+[16.011927] (-) TimerEvent: {}
+[16.112536] (-) TimerEvent: {}
+[16.234291] (-) TimerEvent: {}
+[16.335264] (-) TimerEvent: {}
+[16.443594] (-) TimerEvent: {}
+[16.556935] (-) TimerEvent: {}
+[16.657998] (-) TimerEvent: {}
+[16.758831] (-) TimerEvent: {}
+[16.859237] (-) TimerEvent: {}
+[16.988957] (-) TimerEvent: {}
+[17.089778] (-) TimerEvent: {}
+[17.195471] (-) TimerEvent: {}
+[17.313417] (-) TimerEvent: {}
+[17.414037] (-) TimerEvent: {}
+[17.521565] (-) TimerEvent: {}
+[17.634303] (-) TimerEvent: {}
+[17.755801] (-) TimerEvent: {}
+[17.856756] (-) TimerEvent: {}
+[17.960727] (-) TimerEvent: {}
+[18.061484] (-) TimerEvent: {}
+[18.176325] (-) TimerEvent: {}
+[18.361736] (-) TimerEvent: {}
+[18.469005] (-) TimerEvent: {}
+[18.594366] (-) TimerEvent: {}
+[18.713737] (-) TimerEvent: {}
+[18.838823] (-) TimerEvent: {}
+[18.955533] (-) TimerEvent: {}
+[19.063543] (-) TimerEvent: {}
+[19.172440] (-) TimerEvent: {}
+[19.290864] (-) TimerEvent: {}
+[19.394778] (-) TimerEvent: {}
+[19.518096] (-) TimerEvent: {}
+[19.632124] (-) TimerEvent: {}
+[19.736866] (-) TimerEvent: {}
+[19.848041] (-) TimerEvent: {}
+[19.996722] (-) TimerEvent: {}
+[20.097652] (-) TimerEvent: {}
+[20.198503] (-) TimerEvent: {}
+[20.298974] (-) TimerEvent: {}
+[20.405707] (-) TimerEvent: {}
+[20.510725] (-) TimerEvent: {}
+[20.615654] (-) TimerEvent: {}
+[20.731624] (-) TimerEvent: {}
+[20.835387] (-) TimerEvent: {}
+[20.935762] (-) TimerEvent: {}
+[21.043098] (-) TimerEvent: {}
+[21.148123] (-) TimerEvent: {}
+[21.252396] (-) TimerEvent: {}
+[21.353130] (-) TimerEvent: {}
+[21.453555] (-) TimerEvent: {}
+[21.564441] (-) TimerEvent: {}
+[21.669277] (-) TimerEvent: {}
+[21.805684] (-) TimerEvent: {}
+[21.916580] (-) TimerEvent: {}
+[22.039569] (-) TimerEvent: {}
+[22.140384] (-) TimerEvent: {}
+[22.240935] (-) TimerEvent: {}
+[22.345808] (-) TimerEvent: {}
+[22.446218] (-) TimerEvent: {}
+[22.549767] (-) TimerEvent: {}
+[22.655446] (-) TimerEvent: {}
+[22.758010] (-) TimerEvent: {}
+[22.903377] (-) TimerEvent: {}
+[23.003951] (-) TimerEvent: {}
+[23.114585] (-) TimerEvent: {}
+[23.215091] (-) TimerEvent: {}
+[23.315827] (-) TimerEvent: {}
+[23.345265] (my_interface) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/my_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interface/srv/check_stock__type_support.cpp.o\x1b[0m\n'}
+[23.355284] (my_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interface/srv/detail/check_stock__type_support_c.cpp.o\x1b[0m\n'}
+[23.420660] (-) TimerEvent: {}
+[23.494280] (my_interface) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interface/srv/detail/check_stock__type_support.cpp.o\x1b[0m\n'}
+[23.507741] (my_interface) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/my_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interface/srv/detail/dds_fastrtps/check_stock__type_support.cpp.o\x1b[0m\n'}
+[23.520893] (-) TimerEvent: {}
+[23.621530] (-) TimerEvent: {}
+[23.709639] (my_interface) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[23.721867] (-) TimerEvent: {}
+[23.818619] (my_interface) StdoutLine: {'line': b'[ 46%] Built target my_interface__rosidl_typesupport_cpp\n'}
+[23.822077] (-) TimerEvent: {}
+[23.835606] (my_interface) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[23.896493] (my_interface) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[23.922281] (-) TimerEvent: {}
+[24.022876] (-) TimerEvent: {}
+[24.034418] (my_interface) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[24.068027] (my_interface) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[24.068453] (my_interface) StdoutLine: {'line': b'[ 56%] Built target my_interface__rosidl_typesupport_fastrtps_c\n'}
+[24.079530] (my_interface) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[24.123172] (-) TimerEvent: {}
+[24.164790] (my_interface) StdoutLine: {'line': b'[ 58%] Built target my_interface__rosidl_typesupport_introspection_cpp\n'}
+[24.204429] (my_interface) StdoutLine: {'line': b'[ 58%] Built target my_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[24.223446] (-) TimerEvent: {}
+[24.324031] (-) TimerEvent: {}
+[24.424723] (-) TimerEvent: {}
+[24.443816] (my_interface) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/my_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interface/srv/detail/check_stock__type_support.c.o\x1b[0m\n'}
+[24.444121] (my_interface) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/my_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interface/action/detail/deliver_item__type_support.c.o\x1b[0m\n'}
+[24.477953] (my_interface) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/my_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interface/srv/check_stock__type_support.cpp.o\x1b[0m\n'}
+[24.480409] (my_interface) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/my_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interface/action/deliver_item__type_support.cpp.o\x1b[0m\n'}
+[24.504827] (my_interface) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking C shared library libmy_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[24.524929] (-) TimerEvent: {}
+[24.545378] (my_interface) StdoutLine: {'line': b'[ 71%] Built target my_interface__rosidl_typesupport_introspection_c\n'}
+[24.568368] (my_interface) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[24.615511] (my_interface) StdoutLine: {'line': b'[ 74%] Built target my_interface__rosidl_typesupport_c\n'}
+[24.625096] (-) TimerEvent: {}
+[24.636244] (my_interface) StdoutLine: {'line': b'[ 74%] Built target my_interface\n'}
+[24.659210] (my_interface) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[24.725563] (-) TimerEvent: {}
+[24.826233] (-) TimerEvent: {}
+[24.926827] (-) TimerEvent: {}
+[25.027532] (-) TimerEvent: {}
+[25.128110] (-) TimerEvent: {}
+[25.228785] (-) TimerEvent: {}
+[25.329432] (-) TimerEvent: {}
+[25.429788] (-) TimerEvent: {}
+[25.530188] (-) TimerEvent: {}
+[25.624020] (my_interface) StdoutLine: {'line': b'[ 76%] Built target my_interface__py\n'}
+[25.630316] (-) TimerEvent: {}
+[25.644789] (my_interface) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/my_interface__rosidl_generator_py.dir/rosidl_generator_py/my_interface/action/_deliver_item_s.c.o\x1b[0m\n'}
+[25.644992] (my_interface) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/my_interface__rosidl_generator_py.dir/rosidl_generator_py/my_interface/srv/_check_stock_s.c.o\x1b[0m\n'}
+[25.731090] (-) TimerEvent: {}
+[25.831724] (-) TimerEvent: {}
+[25.932458] (-) TimerEvent: {}
+[26.033099] (-) TimerEvent: {}
+[26.133658] (-) TimerEvent: {}
+[26.234464] (-) TimerEvent: {}
+[26.335019] (-) TimerEvent: {}
+[26.348857] (my_interface) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interface/libmy_interface__rosidl_generator_py.so\x1b[0m\n'}
+[26.429329] (my_interface) StdoutLine: {'line': b'[ 84%] Built target my_interface__rosidl_generator_py\n'}
+[26.435162] (-) TimerEvent: {}
+[26.450818] (my_interface) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/my_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_interface/_my_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[26.451007] (my_interface) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/my_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_interface/_my_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[26.451174] (my_interface) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/my_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_interface/_my_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[26.535414] (-) TimerEvent: {}
+[26.583819] (my_interface) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interface/my_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[26.584059] (my_interface) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interface/my_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[26.587076] (my_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interface/my_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[26.626684] (my_interface) StdoutLine: {'line': b'[100%] Built target my_interface__rosidl_typesupport_c__pyext\n'}
+[26.627899] (my_interface) StdoutLine: {'line': b'[100%] Built target my_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[26.630510] (my_interface) StdoutLine: {'line': b'[100%] Built target my_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[26.635557] (-) TimerEvent: {}
+[26.642206] (my_interface) CommandEnded: {'returncode': 0}
+[26.729034] (my_interface) JobProgress: {'identifier': 'my_interface', 'progress': 'install'}
+[26.735801] (-) TimerEvent: {}
+[26.739430] (my_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/my_interface'], 'cwd': '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/my_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'anthonyubuntu'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anthonyubuntu'), ('OLDPWD', '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '1902'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anthonyubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anthonyubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anthonyubuntu:@/tmp/.ICE-unix/1735,unix/anthonyubuntu:/tmp/.ICE-unix/1735'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/be2a5510_fcf3_436c_aa85_ccdfe4800390'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9DQJR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.114'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/my_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[26.747954] (my_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.748209] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/ament_index/resource_index/rosidl_interfaces/my_interface\n'}
+[26.748344] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface\n'}
+[26.748548] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv\n'}
+[26.748676] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv/detail\n'}
+[26.748819] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv/detail/check_stock__functions.c\n'}
+[26.748937] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv/detail/check_stock__type_support.h\n'}
+[26.749143] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv/detail/check_stock__struct.h\n'}
+[26.749258] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv/detail/check_stock__functions.h\n'}
+[26.749389] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv/check_stock.h\n'}
+[26.749492] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/msg\n'}
+[26.749697] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[26.749774] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action\n'}
+[26.749873] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action/detail\n'}
+[26.750006] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action/detail/deliver_item__type_support.h\n'}
+[26.750106] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action/detail/deliver_item__struct.h\n'}
+[26.750213] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action/detail/deliver_item__functions.h\n'}
+[26.750305] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action/detail/deliver_item__functions.c\n'}
+[26.750403] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action/deliver_item.h\n'}
+[26.750514] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/environment/library_path.sh\n'}
+[26.750664] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/environment/library_path.dsv\n'}
+[26.750900] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/lib/libmy_interface__rosidl_generator_c.so\n'}
+[26.751253] (my_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/lib/libmy_interface__rosidl_generator_c.so" to ""\n'}
+[26.751452] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface\n'}
+[26.751630] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv\n'}
+[26.751803] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv/detail\n'}
+[26.751973] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv/detail/check_stock__rosidl_typesupport_fastrtps_c.h\n'}
+[26.752047] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/msg\n'}
+[26.752126] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[26.752182] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action\n'}
+[26.752277] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action/detail\n'}
+[26.752512] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action/detail/deliver_item__rosidl_typesupport_fastrtps_c.h\n'}
+[26.752645] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[26.752866] (my_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[26.753035] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface\n'}
+[26.753137] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv\n'}
+[26.753192] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv/detail\n'}
+[26.753309] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv/detail/check_stock__type_support.c\n'}
+[26.753403] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv/detail/check_stock__rosidl_typesupport_introspection_c.h\n'}
+[26.753499] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/msg\n'}
+[26.753702] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[26.753762] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action\n'}
+[26.753865] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action/detail\n'}
+[26.754149] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action/detail/deliver_item__rosidl_typesupport_introspection_c.h\n'}
+[26.754246] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action/detail/deliver_item__type_support.c\n'}
+[26.754373] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_introspection_c.so\n'}
+[26.754518] (my_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[26.754718] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_c.so\n'}
+[26.754837] (my_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_c.so" to ""\n'}
+[26.754968] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface\n'}
+[26.755097] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv\n'}
+[26.755189] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv/detail\n'}
+[26.755709] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv/detail/check_stock__builder.hpp\n'}
+[26.755860] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv/detail/check_stock__struct.hpp\n'}
+[26.755979] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv/detail/check_stock__traits.hpp\n'}
+[26.756110] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv/check_stock.hpp\n'}
+[26.756181] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action\n'}
+[26.756247] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action/deliver_item.hpp\n'}
+[26.756301] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action/detail\n'}
+[26.756611] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action/detail/deliver_item__struct.hpp\n'}
+[26.756734] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action/detail/deliver_item__builder.hpp\n'}
+[26.757089] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action/detail/deliver_item__traits.hpp\n'}
+[26.757157] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface\n'}
+[26.757287] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv\n'}
+[26.757357] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv/detail\n'}
+[26.757411] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv/detail/check_stock__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[26.757466] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv/detail/dds_fastrtps\n'}
+[26.757658] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/msg\n'}
+[26.757731] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[26.757786] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action\n'}
+[26.757869] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action/detail\n'}
+[26.758012] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action/detail/deliver_item__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[26.758167] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action/detail/dds_fastrtps\n'}
+[26.758282] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[26.758395] (my_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[26.758505] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface\n'}
+[26.758714] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv\n'}
+[26.758806] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv/detail\n'}
+[26.758971] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv/detail/check_stock__type_support.cpp\n'}
+[26.759138] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/srv/detail/check_stock__rosidl_typesupport_introspection_cpp.hpp\n'}
+[26.759255] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action\n'}
+[26.759392] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action/detail\n'}
+[26.759538] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action/detail/deliver_item__rosidl_typesupport_introspection_cpp.hpp\n'}
+[26.759691] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/include/my_interface/my_interface/action/detail/deliver_item__type_support.cpp\n'}
+[26.759824] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[26.759947] (my_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[26.760021] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_cpp.so\n'}
+[26.760090] (my_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[26.760221] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/environment/pythonpath.sh\n'}
+[26.760334] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/environment/pythonpath.dsv\n'}
+[26.760416] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info\n'}
+[26.760515] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[26.760650] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[26.760762] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[26.760879] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[26.760965] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface\n'}
+[26.761065] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/__init__.py\n'}
+[26.761226] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/srv\n'}
+[26.761285] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/srv/__init__.py\n'}
+[26.761356] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/srv/_check_stock.py\n'}
+[26.761409] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/srv/_check_stock_s.c\n'}
+[26.761469] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.761584] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.761645] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/_my_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[26.761700] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/libmy_interface__rosidl_generator_py.so\n'}
+[26.761765] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.761829] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/_my_interface_s.ep.rosidl_typesupport_c.c\n'}
+[26.761885] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/_my_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[26.761956] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/action\n'}
+[26.762055] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/action/__init__.py\n'}
+[26.762113] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/action/_deliver_item.py\n'}
+[26.762169] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/action/_deliver_item_s.c\n'}
+[26.836368] (-) TimerEvent: {}
+[26.865803] (my_interface) StdoutLine: {'line': b"Listing '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface'...\n"}
+[26.865963] (my_interface) StdoutLine: {'line': b"Compiling '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/__init__.py'...\n"}
+[26.866028] (my_interface) StdoutLine: {'line': b"Listing '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/action'...\n"}
+[26.866117] (my_interface) StdoutLine: {'line': b"Compiling '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/action/__init__.py'...\n"}
+[26.866205] (my_interface) StdoutLine: {'line': b"Compiling '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/action/_deliver_item.py'...\n"}
+[26.866271] (my_interface) StdoutLine: {'line': b"Listing '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/srv'...\n"}
+[26.866325] (my_interface) StdoutLine: {'line': b"Compiling '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/srv/__init__.py'...\n"}
+[26.866383] (my_interface) StdoutLine: {'line': b"Compiling '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/srv/_check_stock.py'...\n"}
+[26.874606] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.874885] (my_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[26.875031] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.875456] (my_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[26.875658] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.875972] (my_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[26.876158] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/lib/libmy_interface__rosidl_generator_py.so\n'}
+[26.876426] (my_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/lib/libmy_interface__rosidl_generator_py.so" to ""\n'}
+[26.876574] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/action/DeliverItem.idl\n'}
+[26.876768] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/srv/CheckStock.idl\n'}
+[26.876879] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/action/DeliverItem.action\n'}
+[26.877019] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/srv/CheckStock.srv\n'}
+[26.877186] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/srv/CheckStock_Request.msg\n'}
+[26.877303] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/srv/CheckStock_Response.msg\n'}
+[26.877518] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/ament_index/resource_index/package_run_dependencies/my_interface\n'}
+[26.877708] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/ament_index/resource_index/parent_prefix_path/my_interface\n'}
+[26.877830] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/environment/ament_prefix_path.sh\n'}
+[26.877955] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/environment/ament_prefix_path.dsv\n'}
+[26.878115] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/environment/path.sh\n'}
+[26.878253] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/environment/path.dsv\n'}
+[26.878381] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/local_setup.bash\n'}
+[26.878502] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/local_setup.sh\n'}
+[26.878679] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/local_setup.zsh\n'}
+[26.878788] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/local_setup.dsv\n'}
+[26.878888] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/package.dsv\n'}
+[26.879140] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/ament_index/resource_index/packages/my_interface\n'}
+[26.879461] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_cExport.cmake\n'}
+[26.879620] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[26.879729] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[26.879869] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[26.879989] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[26.880146] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[26.880268] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_cExport.cmake\n'}
+[26.880409] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[26.880548] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_cppExport.cmake\n'}
+[26.880740] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[26.880882] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[26.881020] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[26.881196] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[26.881451] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_cppExport.cmake\n'}
+[26.881669] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[26.881800] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_pyExport.cmake\n'}
+[26.881905] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[26.882139] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[26.882312] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[26.882428] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[26.882572] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[26.882741] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[26.882855] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[26.882965] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[26.883125] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/my_interfaceConfig.cmake\n'}
+[26.883248] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/cmake/my_interfaceConfig-version.cmake\n'}
+[26.883398] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/share/my_interface/package.xml\n'}
+[26.885928] (my_interface) CommandEnded: {'returncode': 0}
+[26.937033] (-) TimerEvent: {}
+[27.038015] (-) TimerEvent: {}
+[27.138623] (-) TimerEvent: {}
+[27.165654] (my_interface) JobEnded: {'identifier': 'my_interface', 'rc': 0}
+[27.166308] (warehouse_robot) JobStarted: {'identifier': 'warehouse_robot'}
+[27.239008] (-) TimerEvent: {}
+[27.339699] (-) TimerEvent: {}
+[27.440502] (-) TimerEvent: {}
+[27.541084] (-) TimerEvent: {}
+[27.641673] (-) TimerEvent: {}
+[27.742339] (-) TimerEvent: {}
+[27.843004] (-) TimerEvent: {}
+[27.943602] (-) TimerEvent: {}
+[28.044071] (-) TimerEvent: {}
+[28.144556] (-) TimerEvent: {}
+[28.245083] (-) TimerEvent: {}
+[28.345996] (-) TimerEvent: {}
+[28.365568] (warehouse_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/warehouse_robot', 'build', '--build-base', '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/build', 'install', '--record', '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/src/warehouse_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'anthonyubuntu', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/anthonyubuntu', 'OLDPWD': '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '1902', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'anthonyubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'anthonyubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/anthonyubuntu:@/tmp/.ICE-unix/1735,unix/anthonyubuntu:/tmp/.ICE-unix/1735', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/be2a5510_fcf3_436c_aa85_ccdfe4800390', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.9DQJR2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.114', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/python3.10/site-packages:/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/my_interface'}, 'shell': False}
+[28.446177] (-) TimerEvent: {}
+[28.546857] (-) TimerEvent: {}
+[28.626598] (warehouse_robot) StdoutLine: {'line': b'running egg_info\n'}
+[28.627230] (warehouse_robot) StdoutLine: {'line': b'creating ../../build/warehouse_robot/warehouse_robot.egg-info\n'}
+[28.627652] (warehouse_robot) StdoutLine: {'line': b'writing ../../build/warehouse_robot/warehouse_robot.egg-info/PKG-INFO\n'}
+[28.628024] (warehouse_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/warehouse_robot/warehouse_robot.egg-info/dependency_links.txt\n'}
+[28.628500] (warehouse_robot) StdoutLine: {'line': b'writing entry points to ../../build/warehouse_robot/warehouse_robot.egg-info/entry_points.txt\n'}
+[28.628699] (warehouse_robot) StdoutLine: {'line': b'writing requirements to ../../build/warehouse_robot/warehouse_robot.egg-info/requires.txt\n'}
+[28.628837] (warehouse_robot) StdoutLine: {'line': b'writing top-level names to ../../build/warehouse_robot/warehouse_robot.egg-info/top_level.txt\n'}
+[28.629141] (warehouse_robot) StdoutLine: {'line': b"writing manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'\n"}
+[28.630761] (warehouse_robot) StdoutLine: {'line': b"reading manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'\n"}
+[28.631933] (warehouse_robot) StdoutLine: {'line': b"writing manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'\n"}
+[28.632395] (warehouse_robot) StdoutLine: {'line': b'running build\n'}
+[28.632619] (warehouse_robot) StdoutLine: {'line': b'running build_py\n'}
+[28.633001] (warehouse_robot) StdoutLine: {'line': b'creating /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/build\n'}
+[28.633285] (warehouse_robot) StdoutLine: {'line': b'creating /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/build/lib\n'}
+[28.633349] (warehouse_robot) StdoutLine: {'line': b'creating /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/build/lib/warehouse_robot\n'}
+[28.633505] (warehouse_robot) StdoutLine: {'line': b'copying warehouse_robot/__init__.py -> /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/build/lib/warehouse_robot\n'}
+[28.633608] (warehouse_robot) StdoutLine: {'line': b'copying warehouse_robot/item_delivery_action_server.py -> /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/build/lib/warehouse_robot\n'}
+[28.634017] (warehouse_robot) StdoutLine: {'line': b'copying warehouse_robot/item_delivery_action_client.py -> /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/build/lib/warehouse_robot\n'}
+[28.634152] (warehouse_robot) StdoutLine: {'line': b'copying warehouse_robot/stock_checker_service_client.py -> /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/build/lib/warehouse_robot\n'}
+[28.634360] (warehouse_robot) StdoutLine: {'line': b'copying warehouse_robot/stock_checker_service_server.py -> /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/build/lib/warehouse_robot\n'}
+[28.634446] (warehouse_robot) StdoutLine: {'line': b'running install\n'}
+[28.634559] (warehouse_robot) StdoutLine: {'line': b'running install_lib\n'}
+[28.635104] (warehouse_robot) StdoutLine: {'line': b'creating /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot\n'}
+[28.635379] (warehouse_robot) StdoutLine: {'line': b'copying /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/build/lib/warehouse_robot/__init__.py -> /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot\n'}
+[28.635626] (warehouse_robot) StdoutLine: {'line': b'copying /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/build/lib/warehouse_robot/item_delivery_action_server.py -> /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot\n'}
+[28.635786] (warehouse_robot) StdoutLine: {'line': b'copying /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/build/lib/warehouse_robot/item_delivery_action_client.py -> /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot\n'}
+[28.636004] (warehouse_robot) StdoutLine: {'line': b'copying /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/build/lib/warehouse_robot/stock_checker_service_client.py -> /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot\n'}
+[28.636092] (warehouse_robot) StdoutLine: {'line': b'copying /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/build/lib/warehouse_robot/stock_checker_service_server.py -> /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot\n'}
+[28.636495] (warehouse_robot) StdoutLine: {'line': b'byte-compiling /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot/__init__.py to __init__.cpython-310.pyc\n'}
+[28.636776] (warehouse_robot) StdoutLine: {'line': b'byte-compiling /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot/item_delivery_action_server.py to item_delivery_action_server.cpython-310.pyc\n'}
+[28.637739] (warehouse_robot) StdoutLine: {'line': b'byte-compiling /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot/item_delivery_action_client.py to item_delivery_action_client.cpython-310.pyc\n'}
+[28.638294] (warehouse_robot) StdoutLine: {'line': b'byte-compiling /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot/stock_checker_service_client.py to stock_checker_service_client.cpython-310.pyc\n'}
+[28.638822] (warehouse_robot) StdoutLine: {'line': b'byte-compiling /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot/stock_checker_service_server.py to stock_checker_service_server.cpython-310.pyc\n'}
+[28.639311] (warehouse_robot) StdoutLine: {'line': b'running install_data\n'}
+[28.639587] (warehouse_robot) StdoutLine: {'line': b'creating /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/share/ament_index\n'}
+[28.639751] (warehouse_robot) StdoutLine: {'line': b'creating /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/share/ament_index/resource_index\n'}
+[28.639924] (warehouse_robot) StdoutLine: {'line': b'creating /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/share/ament_index/resource_index/packages\n'}
+[28.640070] (warehouse_robot) StdoutLine: {'line': b'copying resource/warehouse_robot -> /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/share/ament_index/resource_index/packages\n'}
+[28.640358] (warehouse_robot) StdoutLine: {'line': b'copying package.xml -> /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/share/warehouse_robot\n'}
+[28.640463] (warehouse_robot) StdoutLine: {'line': b'creating /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/share/warehouse_robot/launch\n'}
+[28.640539] (warehouse_robot) StdoutLine: {'line': b'copying launch/warehouse_robot_launch.py -> /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/share/warehouse_robot/launch\n'}
+[28.640621] (warehouse_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[28.641972] (warehouse_robot) StdoutLine: {'line': b'Copying ../../build/warehouse_robot/warehouse_robot.egg-info to /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot-0.0.0-py3.10.egg-info\n'}
+[28.642832] (warehouse_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[28.647042] (-) TimerEvent: {}
+[28.664973] (warehouse_robot) StdoutLine: {'line': b'Installing item_delivery_action_client script to /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/warehouse_robot\n'}
+[28.665477] (warehouse_robot) StdoutLine: {'line': b'Installing item_delivery_action_server script to /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/warehouse_robot\n'}
+[28.665590] (warehouse_robot) StdoutLine: {'line': b'Installing stock_checker_service_client script to /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/warehouse_robot\n'}
+[28.665755] (warehouse_robot) StdoutLine: {'line': b'Installing stock_checker_service_server script to /home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/install/warehouse_robot/lib/warehouse_robot\n'}
+[28.666058] (warehouse_robot) StdoutLine: {'line': b"writing list of installed files to '/home/anthonyubuntu/Desktop/inmind/session6/Anthony-Moundalak-ROS2-Assignment-Session6/ros2ws/build/warehouse_robot/install.log'\n"}
+[28.695795] (warehouse_robot) CommandEnded: {'returncode': 0}
+[28.702508] (warehouse_robot) JobEnded: {'identifier': 'warehouse_robot', 'rc': 0}
+[28.704243] (-) EventReactorShutdown: {}
