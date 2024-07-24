@@ -18,6 +18,7 @@ class ItemDeliveryActionServer(Node):
             handle_accepted_callback=self.handle_accepted_callback
         )
         self._stock_checker_client = StockCheckerServiceClient()
+        self._stock_checker_client.visualize_stock(['item1', 'item2', 'item3'])
         
     def goal_callback(self, goal_request):
         item_name = goal_request.item_name

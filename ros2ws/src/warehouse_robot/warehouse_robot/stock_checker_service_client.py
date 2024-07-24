@@ -1,3 +1,4 @@
+from matplotlib import pyplot as plt
 import rclpy
 from rclpy.node import Node
 from my_interface.srv import CheckStock
@@ -23,6 +24,17 @@ class StockCheckerServiceClient(Node):
         self.get_logger().info(f'Stock level: {self.response.stock_level}')
         self.get_logger().info(f'Received response: Stock level for {item_name} is {self.response.stock_level}')
         return self.response.stock_level
+    
+    def visualize_stock(self, stocks):
+        stock_level = []
+        for item in stocks:
+            stock_level.append(self.send_request(item))
+        plt.figure(figsize=(10, 6))
+        plt.bar(stocks, stock_level)
+        plt.xlabel('Items')
+        plt.ylabel('Stock level')
+        plt.title('Stock levels of different items')
+        plt.show()
 
 
 def main(args=None):
@@ -33,6 +45,7 @@ def main(args=None):
     # rclpy.shutdown()
     try:
         rclpy.spin(service_client)
+        service_client.visualize_stock(['item1', 'item2', 'item3'])
     except KeyboardInterrupt:
         pass
     finally:
